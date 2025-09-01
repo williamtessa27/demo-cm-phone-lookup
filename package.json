@@ -1,7 +1,7 @@
 {
   "name": "cm-phone-lookup-demo",
   "version": "1.0.0",
-  "description": "Démonstration interactive de la librairie CM Phone Lookup - 8 pays africains avec API unifiée V1.6.0",
+  "description": "Démonstration interactive de la librairie CM Phone Lookup - 8 pays africains avec API unifiée V1.6.1 (90% coverage)",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -10,7 +10,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@williamtessa27/cm-phone-lookup": "^1.6.0",
+    "@williamtessa27/cm-phone-lookup": "^1.6.1",
     "next": "15.5.2",
     "react": "^18",
     "react-dom": "^18"
