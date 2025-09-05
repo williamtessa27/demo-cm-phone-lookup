@@ -1,7 +1,7 @@
 {
   "name": "cm-phone-lookup-demo",
   "version": "1.0.0",
-  "description": "Démonstration interactive de la librairie CM Phone Lookup - 11 pays africains avec API unifiée V1.8.0 - Éthiopie, Égypte, Tanzanie (89% coverage)",
+  "description": "Démonstration interactive de la librairie CM Phone Lookup - 14 pays africains avec API unifiée V1.9.0 - RDC, Ouganda, Algérie (95% coverage)",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -10,7 +10,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@williamtessa27/cm-phone-lookup": "^1.8.0",
+    "@williamtessa27/cm-phone-lookup": "^1.9.0",
     "next": "15.5.2",
     "react": "^18",
     "react-dom": "^18"
@@ -44,6 +44,12 @@
     "ethiopia",
     "egypt",
     "tanzania",
+    "drc",
+    "congo",
+    "uganda",
+    "ouganda",
+    "algeria",
+    "algerie",
     "nextjs",
     "typescript",
     "tailwind"

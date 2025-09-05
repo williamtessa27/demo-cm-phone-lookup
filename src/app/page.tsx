@@ -182,13 +182,13 @@ export default function DemoPage() {
         {/* Header */}
         <div className="text-center mb-8">
           <h1 className="text-4xl font-bold text-gray-900 mb-4">
-            📱 CM Phone Lookup Demo V1.8.0
+            📱 CM Phone Lookup Demo V1.9.0
           </h1>
           <p className="text-xl text-gray-800 mb-2 font-medium">
             Démonstration interactive de votre librairie de détection d'opérateurs africains
           </p>
           <p className="text-lg text-gray-700 font-medium">
-            🌍 11 pays africains supportés avec API unifiée - Nouvelles: Éthiopie 🇪🇹, Égypte 🇪🇬, Tanzanie 🇹🇿
+            🌍 14 pays africains supportés avec API unifiée - Nouvelles: RDC 🇨🇩, Ouganda 🇺🇬, Algérie 🇩🇿
           </p>
           <div className="mt-4 space-x-4">
             <a 
@@ -269,7 +269,7 @@ export default function DemoPage() {
               📊 Couverture Continentale
             </h2>
             <p className="text-lg text-gray-700 font-medium">
-              V1.8.0 - Expansion majeure avec 3 nouveaux pays
+              V1.9.0 - Expansion majeure avec 3 nouveaux pays
             </p>
           </div>
           
@@ -279,7 +279,7 @@ export default function DemoPage() {
               <div className="text-green-800 font-semibold">Pays</div>
             </div>
             <div className="bg-white rounded-lg p-4 text-center border-2 border-blue-300 shadow-md">
-              <div className="text-3xl font-bold text-blue-700">54+</div>
+              <div className="text-3xl font-bold text-blue-700">65+</div>
               <div className="text-blue-800 font-semibold">Opérateurs</div>
             </div>
             <div className="bg-white rounded-lg p-4 text-center border-2 border-purple-300 shadow-md">
@@ -301,15 +301,15 @@ export default function DemoPage() {
               </div>
               <div className="text-center p-3 bg-blue-50 rounded-lg border border-blue-200">
                 <div className="text-lg font-semibold text-blue-900">🌍 Afrique de l'Est</div>
-                <div className="text-sm text-blue-700">🇰🇪🇪🇹🇹🇿</div>
+                <div className="text-sm text-blue-700">🇰🇪🇪🇹🇹🇿🇺🇬</div>
               </div>
               <div className="text-center p-3 bg-purple-50 rounded-lg border border-purple-200">
-                <div className="text-lg font-semibold text-purple-900">🌍 Afrique du Sud</div>
-                <div className="text-sm text-purple-700">🇿🇦</div>
+                <div className="text-lg font-semibold text-purple-900">🌍 Afrique Centrale</div>
+                <div className="text-sm text-purple-700">🇨🇩🇿🇦</div>
               </div>
               <div className="text-center p-3 bg-orange-50 rounded-lg border border-orange-200">
                 <div className="text-lg font-semibold text-orange-900">🌍 Afrique du Nord</div>
-                <div className="text-sm text-orange-700">🇲🇦🇪🇬</div>
+                <div className="text-sm text-orange-700">🇲🇦🇪🇬🇩🇿</div>
               </div>
             </div>
           </div>
@@ -323,7 +323,7 @@ export default function DemoPage() {
               type="text"
               value={phoneNumber}
               onChange={(e) => setPhoneNumber(e.target.value)}
-              placeholder="Entrez un numéro (ex: +254700123456, +251911234567, +201012345678, +255741234567...)"
+              placeholder="Entrez un numéro (ex: +243811234567, +256771234567, +213512345678, +254700123456...)"
               className="flex-1 px-4 py-3 border-2 border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 bg-white text-gray-900 placeholder-gray-600 font-medium text-base shadow-sm transition-all duration-200"
             />
             <button
@@ -339,6 +339,9 @@ export default function DemoPage() {
             <h4 className="font-semibold text-gray-900 mb-2">💡 Exemples de numéros :</h4>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2">
               {[
+                { country: "🇨🇩 RDC", number: "+243811234567" },
+                { country: "🇺🇬 Ouganda", number: "+256771234567" },
+                { country: "🇩🇿 Algérie", number: "+213512345678" },
                 { country: "🇪🇹 Éthiopie", number: "+251911234567" },
                 { country: "🇪🇬 Égypte", number: "+201012345678" },
                 { country: "🇹🇿 Tanzanie", number: "+255741234567" },
@@ -346,7 +349,10 @@ export default function DemoPage() {
                 { country: "🇿🇦 Afrique du Sud", number: "+27721234567" },
                 { country: "🇲🇦 Maroc", number: "+212612345678" },
                 { country: "🇨🇲 Cameroun", number: "+237650123456" },
-                { country: "🇸🇳 Sénégal", number: "+221701234567" }
+                { country: "🇸🇳 Sénégal", number: "+221701234567" },
+                { country: "🇨🇮 Côte d'Ivoire", number: "+22501234567" },
+                { country: "🇳🇬 Nigeria", number: "+2348031234567" },
+                { country: "🇬🇭 Ghana", number: "+233241234567" }
               ].map((example, index) => (
                 <button
                   key={index}
@@ -553,7 +559,7 @@ export default function DemoPage() {
                         <p className="text-red-800 font-semibold">Opérateurs</p>
                       </div>
                       <div className="bg-white rounded-lg p-4 border-2 border-red-200 text-center shadow-sm">
-                        <p className="text-3xl font-bold text-red-700">V1.8.0</p>
+                        <p className="text-3xl font-bold text-red-700">V1.9.0</p>
                         <p className="text-red-800 font-semibold">Version</p>
                       </div>
                     </div>
@@ -579,15 +585,15 @@ export default function DemoPage() {
         {/* Footer */}
         <div className="text-center mt-12 text-gray-800 bg-white rounded-xl shadow-lg p-6 border border-gray-200">
           <p className="mb-2 text-lg font-semibold text-gray-900">
-            <strong>CM Phone Lookup V1.8.0</strong> - Librairie professionnelle pour la détection d'opérateurs africains
+            <strong>CM Phone Lookup V1.9.0</strong> - Librairie professionnelle pour la détection d'opérateurs africains
           </p>
           <p className="text-base text-gray-700 font-medium">
-            🌍 Couverture complète de l'Afrique avec 11 pays et 54+ opérateurs
+            🌍 Couverture complète de l'Afrique avec 14 pays et 65+ opérateurs
           </p>
           
           <div className="mt-4 p-3 bg-gradient-to-r from-blue-50 to-green-50 rounded-lg border border-blue-200">
             <p className="text-sm text-blue-800 font-medium">
-              🎉 <strong>Nouveauté V1.8.0 :</strong> Éthiopie 🇪🇹, Égypte 🇪🇬, Tanzanie 🇹🇿 maintenant supportés ! (+14 opérateurs)
+              🎉 <strong>Nouveauté V1.9.0 :</strong> RDC 🇨🇩, Ouganda 🇺🇬, Algérie 🇩🇿 maintenant supportés ! (+11 opérateurs)
             </p>
           </div>
           
