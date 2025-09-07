@@ -2,10 +2,10 @@
 
 ## 📋 Résumé du Projet
 
-**Projet** : Démonstration interactive Next.js de la librairie CM Phone Lookup V1.5.0  
+**Projet** : Démonstration interactive Next.js de la librairie CM Phone Lookup V1.11.0  
 **Objectif** : Vitrine professionnelle pour démontrer les capacités de détection d'opérateurs africains  
 **Technologies** : Next.js 15, TypeScript, Tailwind CSS  
-**Librairie** : @williamtessa27/cm-phone-lookup@1.5.0  
+**Librairie** : @williamtessa27/cm-phone-lookup@1.11.0  
 
 ---
 
@@ -48,17 +48,30 @@ demo/
 - ✅ Validation multi-pays avec règles spécifiques
 - ✅ Interface d'erreur élégante
 
-### **🌍 Métadonnées des Pays**
+### **🌍 Métadonnées des Pays (18 pays supportés)**
 - ✅ **Cameroun** 🇨🇲 : Bilingue officiel (français + anglais)
 - ✅ **Sénégal** 🇸🇳 : Français
 - ✅ **Côte d'Ivoire** 🇨🇮 : Français
 - ✅ **Nigeria** 🇳🇬 : Anglais
 - ✅ **Ghana** 🇬🇭 : Anglais
+- ✅ **Kenya** 🇰🇪 : Anglais + Swahili
+- ✅ **Afrique du Sud** 🇿🇦 : Anglais + Afrikaans
+- ✅ **Maroc** 🇲🇦 : Arabe + Français
+- ✅ **Éthiopie** 🇪🇹 : Amharique + Anglais
+- ✅ **Égypte** 🇪🇬 : Arabe
+- ✅ **Tanzanie** 🇹🇿 : Anglais + Swahili
+- ✅ **RDC** 🇨🇩 : Français
+- ✅ **Ouganda** 🇺🇬 : Anglais
+- ✅ **Rwanda** 🇷🇼 : Anglais + Français
+- ✅ **Algérie** 🇩🇿 : Arabe + Français
+- ✅ **Mali** 🇲🇱 : Français
+- ✅ **Soudan** 🇸🇩 : Arabe + Anglais
+- ✅ **Mozambique** 🇲🇿 : Portugais
 
 ### **📊 Statistiques Globales**
 - ✅ Vue d'ensemble de la librairie
 - ✅ Détail par pays avec nombre d'opérateurs
-- ✅ Support de 18+ opérateurs africains
+- ✅ Support de 75+ opérateurs africains
 - ✅ Interface de statistiques interactive
 
 ---
@@ -124,7 +137,7 @@ demo/
 
 ---
 
-## 📱 Exemples de Numéros à Tester
+## 📱 Exemples de Numéros à Tester (18 pays)
 
 ### **🇨🇲 Cameroun (+237)**
 - **MTN** : `+237650123456`
@@ -152,13 +165,31 @@ demo/
 - **Vodafone** : `+233201234567`
 - **AirtelTigo** : `+233261234567`
 
+### **🇷🇼 Rwanda (+250)**
+- **MTN** : `+250781234567`
+- **Airtel** : `+250731234567`
+- **Tigo** : `+250721234567`
+
+### **🇲🇱 Mali (+223)**
+- **Orange** : `+22370123456`
+- **Malitel** : `+22365123456`
+
+### **🇸🇩 Soudan (+249)**
+- **Zain** : `+249912345678`
+- **MTN** : `+249921234567`
+- **Sudani** : `+249151234567`
+
+### **🇲🇿 Mozambique (+258)**
+- **Vodacom** : `+258841234567`
+- **Tmcel** : `+258821234567`
+
 ---
 
 ## 🔗 Liens et Références
 
 ### **📦 NPM Package**
 - **URL** : [@williamtessa27/cm-phone-lookup](https://www.npmjs.com/package/@williamtessa27/cm-phone-lookup)
-- **Version** : 1.5.0
+- **Version** : 1.11.0
 - **Statut** : ✅ Publié et fonctionnel
 
 ### **🐙 GitHub Repository**
@@ -231,7 +262,7 @@ demo/
 
 ---
 
-**🇨🇲🇸🇳🇨🇮🇳🇬🇬🇭 Ensemble, vous avez créé quelque chose d'extraordinaire pour la communauté africaine et open-source ! 🚀**
+**🌍 Ensemble, vous avez créé quelque chose d'extraordinaire pour la communauté africaine et open-source avec 18 pays et 75+ opérateurs ! 🚀**
 
 ---
 

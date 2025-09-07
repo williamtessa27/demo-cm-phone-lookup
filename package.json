@@ -1,7 +1,7 @@
 {
   "name": "cm-phone-lookup-demo",
   "version": "1.0.0",
-  "description": "Démonstration interactive de la librairie CM Phone Lookup - 14 pays africains avec API unifiée V1.9.0 - RDC, Ouganda, Algérie (95% coverage)",
+  "description": "Démonstration interactive de la librairie CM Phone Lookup - 18 pays africains avec API unifiée V1.11.0 - RDC, Ouganda, Rwanda, Algérie, Mali, Soudan, Mozambique (98% coverage)",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -10,7 +10,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@williamtessa27/cm-phone-lookup": "^1.9.0",
+    "@williamtessa27/cm-phone-lookup": "^1.11.0",
     "next": "15.5.2",
     "react": "^18",
     "react-dom": "^18"
@@ -50,6 +50,11 @@
     "ouganda",
     "algeria",
     "algerie",
+    "rwanda",
+    "mali",
+    "sudan",
+    "soudan",
+    "mozambique",
     "nextjs",
     "typescript",
     "tailwind"
